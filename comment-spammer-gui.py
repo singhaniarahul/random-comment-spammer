@@ -33,7 +33,7 @@ def getRandomQuote(): #Method to generate random quotes using public APIs
         return quote["content"] + " - " + quote["author"]
 
 start = time.time()
-time.sleep(10) #Gives you 10 seconds to click on the comment box
+time.sleep(06) #Gives you 10 seconds to click on the comment box
 count = 0
 
 for j in range(100):
